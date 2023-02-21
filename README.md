@@ -1,1 +1,3 @@
 # CryptoTracker-Real-time-Cryptocurrency-Price-Tracker-with-Notifications
+
+This code uses the CoinMarketCap API to track the real-time price of a selected cryptocurrency (in this case, Bitcoin) and sends a desktop notification if the current price exceeds a target price set by the user. The code uses the `requests` library to make API calls, the `plyer` library to send desktop notifications, and the `datetime` library to format dates and times. When the script is run, the user is prompted to enter a target price for Bitcoin, and the script runs in a loop, checking the current price of Bitcoin every 60 seconds. If the current price exceeds the target price, a desktop notification is sent and the loop is broken.
